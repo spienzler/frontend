@@ -4,7 +4,7 @@ import { inject as service } from '@ember/service';
 export default Component.extend({
   store: service(),
 
-  cams: [],
+  cams: null,
 
   init() {
     this._super(...arguments);
